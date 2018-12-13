@@ -11,7 +11,7 @@
       <swipe-skeleton slot="skeleton"></swipe-skeleton>
     </vue-lazy-component>
     <p class="app-title">{{message}}</p>
-    <p style="font-szie:5rem;">更新后发布的1111</p>
+    <p style="font-szie:5rem;">更新后发布的1122211</p>
     <img src="../../assets/404.png" alt="" srcset="" style="width:100%;" />
   </div>
 </template>
