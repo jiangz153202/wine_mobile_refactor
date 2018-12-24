@@ -9,11 +9,11 @@
       订单
     </mt-tab-item>
     <mt-tab-item id="cart">
-      <img slot="icon" src="static/img/lazybar/group@2x.png">
+      <img slot="icon" src="static/img/lazybar/cart@2x.png">
       购物车
     </mt-tab-item>
     <mt-tab-item id="user">
-      <img slot="icon" src="static/img/lazybar/group@2x.png">
+      <img slot="icon" src="static/img/lazybar/my@2x.png">
       我的
     </mt-tab-item>
   </mt-tabbar>

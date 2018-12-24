@@ -10,6 +10,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+//允许你复制，打包，移动，删除文件及文件夹在build之前及之后
+const FlieManagerPlugin = require('filemanager-webpack-plugin');
 
 const env = require('../config/prod.env')
 
@@ -116,7 +118,21 @@ const webpackConfig = merge(baseWebpackConfig, {
         to: config.build.assetsSubDirectory,
         ignore: ['.*']
       }
-    ])
+    ]),
+
+    // move archive copy delete mkdir
+    new FlieManagerPlugin({
+      onEnd:[
+        {
+          mkdir:[path.resolve(__dirname,'../build_tarGz')]
+        },
+        {
+          archive:[
+            { source: path.resolve(__dirname,'../dist'),destination: path.resolve(__dirname,'../build_tarGz/dist.tar.gz')}
+          ]
+        }
+    ]
+    })
   ]
 })
 

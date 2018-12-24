@@ -1,0 +1,2 @@
+webpackJsonp([3],{Lbao:function(t,e,r){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var n={render:function(){var t=this.$createElement,e=this._self._c||t;return e("div",[e("img",{staticClass:"error_img",attrs:{src:"http://temp.im/288x288/4CD964/fff"}}),this._v(" "),e("P",[this._v("这是错误页")])],1)},staticRenderFns:[]};var a=r("VU/8")({name:"ErrorModel",data:function(){return{}}},n,!1,function(t){r("PLQ8")},"data-v-396642e3",null);e.default=a.exports},PLQ8:function(t,e){}});
+//# sourceMappingURL=3.a9767be4eaa9df5d3912.js.map
