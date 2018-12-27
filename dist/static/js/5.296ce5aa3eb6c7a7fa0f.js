@@ -1,0 +1,2 @@
+webpackJsonp([5],{"4sbn":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var s={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var t=this.$createElement,e=this._self._c||t;return e("div",[e("p",{staticClass:"title"},[this._v("购物车")])])}]};var i=n("VU/8")({name:"cart"},s,!1,function(t){n("xHdV")},null,null);e.default=i.exports},xHdV:function(t,e){}});
+//# sourceMappingURL=5.296ce5aa3eb6c7a7fa0f.js.map
